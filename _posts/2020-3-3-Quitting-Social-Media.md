@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Article
+title: Quitting Social Media
 published: true
 
 ---

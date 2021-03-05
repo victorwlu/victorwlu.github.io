@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Article
+title: Welcome
 published: true
 
 ---
