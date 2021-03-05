@@ -2,7 +2,6 @@
 layout: post
 title: Reinforcement Learning
 published: true
-tags: reinforcement-learning nlp
 
 ---
 
