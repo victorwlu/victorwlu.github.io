@@ -2,6 +2,8 @@
 layout: post
 title: Reinforcement Learning
 published: true
+tags: reinforcement-learning nlp
+
 ---
 
 Test Math 1: $ \sum_{i=1}^y K(i) = \int_0^1 f(x)dx $\
