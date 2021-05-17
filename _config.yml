@@ -26,9 +26,13 @@ footer-links:
   linkedin: victorlu0
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: victorwlu
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+<<<<<<< HEAD
   youtube: # channel/<your_long_string> or user/<user-name> channel/UCtZVFZ1hpqep3upWlu4FOfA
+=======
+  youtube:  # channel/<your_long_string> or user/<user-name>
+>>>>>>> 9d1013f109e8922896475d87716f12f9839ea563
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
