@@ -25,3 +25,11 @@ shocks propagate between stocks, correlation between stocks.
 Create a few models for clusters of stocks. 
 
 RV by 1 min or 2min. 
+
+time_id x bin empty what to do? ok
+
+add log_return2 see if it improves performance or not
+
+try 2min bins to see if we see better performance. 
+
+Cluster the same stocks together. 
