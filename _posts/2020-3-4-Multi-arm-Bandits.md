@@ -17,3 +17,11 @@ If missing values, replace by the mean for each stock id.
 
 Add time_id represents the bucket in the day. 
 Fill nan values
+
+time_id we can probably reverse engineer the time id to get the U-shaped curve. 
+
+shocks propagate between stocks, correlation between stocks.
+
+Create a few models for clusters of stocks. 
+
+RV by 1 min or 2min. 
