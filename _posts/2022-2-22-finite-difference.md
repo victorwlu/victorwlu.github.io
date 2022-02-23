@@ -4,7 +4,6 @@ title: Finite difference methods
 published: true
 ---
 Finite difference methods value a derivative by solving the differential equation that the derivative satisfies.
-
 Consider an American put option on a stock paying a dividend yield of $q$. The associated Black-Scholes equation is:
 
 $$ \frac{\partial f}{\partial t} + (r-q)S \frac{\partial f}{\partial S} +
