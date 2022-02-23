@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Life insurance
+title: Economics of insurance
 published: true
 ---
-Blabla
