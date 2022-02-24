@@ -21,9 +21,9 @@ $$
 The owner thus prefers the insurance when the premium paid is less than or equal to the expected loss. However, an insurer to be profitable over the long term must charge more than its expected loss. In the case of this linear utility function, there seems to be little opportunity for a win-win contract. Yes, actually most people don't have a linear utility function but a concave one.
 
 # Case 2, decreasing marginal utility
-It seems natural to assume that $u(w)$ is an increasing function, more money is better. Moreover, it has been observed that for many decision makers, each additional increment of wealth results in smaller increment of associated utility. This is the idea of decreasing marginal utility.
+It seems natural to assume that $u(w)$ is an increasing function, more money is better. Moreover, it has been observed that for many decision makers, each additional increment of wealth results in smaller increment of associated utility. In other words, losses seem to matter more than gains of the same amount.  For example, if we take people resigning their job in order to start their entrepreneurial dreams, they need a monetary win that is sufficiently big to compensate the monetary loss: $E[u(X)] \geq u(s)$ with $s$ the current salary, and $X$ the random variable representing the new salary of the entrepreneur. 
 
-Mathematically, it can be stated as:
+Mathematically, the idea of decreasing marginal utility can be stated as:
 
 $$
 \left\{
