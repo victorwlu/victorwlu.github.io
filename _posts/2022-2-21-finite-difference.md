@@ -29,3 +29,5 @@ Therefore, starting from $t=T$ and going backwards, we can solve the value of th
 One nice property of the implicit finite difference method is that the user does not have to take any precautions to ensure convergence.
 
 The problem with finite difference methods is that they are difficult to apply when the payoffs depend on the past history of the state variables. They are also liable to become computationally very time consuming when more than three variables are involved.
+
+For more information on finite difference methods, I did a project with D. Duffy [here](https://github.com/victorwlu/fdm-american-put/blob/master/American_Put_FDM_Victor_Lu.pdf).
