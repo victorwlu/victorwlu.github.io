@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Finite difference methods
+title: Backpropagation
 published: true
 ---
