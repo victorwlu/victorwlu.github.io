@@ -7,3 +7,5 @@ Graduate Student Instructor for the following [classes](https://mfe.haas.berkele
 * Stochastic Calculus (Spring 2020)
 * Fixed Income Markets (Summer 2020)
 * Deep Learning (Autumn 2020)
+* Financial Data Science (Summer 2022)
+* High-Frequency Trading (Fall 2022)
