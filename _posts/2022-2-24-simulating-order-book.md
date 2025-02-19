@@ -15,18 +15,18 @@ The $2K$-dimensional process $X(t)=(q_{-K}(t), \dots, q_{K}(t)$ is modeled as a 
 # Model: collection of independent queues
 Three types of orders are considered: limit orders (L), cancellations (C) and market orders (M). We suppose that the intensities $\lambda_L, \lambda_C, \lambda_M$ of these point processes are only functions of the queue size.
 
-We define an event $\omega$ as any modification of the queue size. For queue $Q_i$, we record the waiting time $\Delta t_i (\omega)$ (in seconds) between the event $\omega$ and the preceding event at $Q_i$; the type of event $\mathcal{T}_i(\omega)$ and the queue size $q_i(\omega)$ before the event. When the reference price changes, we restart the recording process.
+We define an event $\omega$ as any modification of the queue size. For queue $Q_i$, we record the waiting time $\Delta t_i (\omega)$ (in seconds) between the event $\omega$ and the preceding event at $Q_i$; the type of event $T_i(\omega)$ and the queue size $q_i(\omega)$ before the event. When the reference price changes, we restart the recording process.
 
-We denote: $\mathcal{T}_i \in \mathcal{E}^{+}$ for a limit order insertion at $Q_i$, $\mathcal{T}_i \in \mathcal{E}^{-}$ for a limit order cancellation at $Q_i$, $\mathcal{T}_i \in \mathcal{E}^{t}$ for a market order at $Q_i$.
+We denote: $T_i \in E^{+}$ for a limit order insertion at $Q_i$, $T_i \in E^{-}$ for a limit order cancellation at $Q_i$, $T_i \in E^{t}$ for a market order at $Q_i$.
 
 The maximum-likelihood estimation method gives the following estimates:
 
 $$
 \begin{aligned}
 \hat{\Lambda}_i(n) &= (\text{mean}(\Delta t_i(\omega) | q_i(\omega) = n ))^{-1} \\
- \hat{\lambda}_{i}^{L}(n) &= \hat{\Lambda}_i(n) \frac{Card(\mathcal{T}_i \in \mathcal{E}^{+}, q_i(\omega)=n)}{Card(q_i(\omega)=n)} \\
-  \hat{\lambda}_{i}^{C}(n) &= \hat{\Lambda}_i(n) \frac{Card(\mathcal{T}_i \in \mathcal{E}^{-}, q_i(\omega)=n)}{Card(q_i(\omega)=n)} \\
-   \hat{\lambda}_{i}^{M}(n) &= \hat{\Lambda}_i(n) \frac{Card(\mathcal{T}_i \in \mathcal{E}^{t}, q_i(\omega)=n)}{Card(q_i(\omega)=n)}
+ \hat{\lambda}_{i}^{L}(n) &= \hat{\Lambda}_i(n) \frac{Card(T_i \in E^{+}, q_i(\omega)=n)}{Card(q_i(\omega)=n)} \\
+  \hat{\lambda}_{i}^{C}(n) &= \hat{\Lambda}_i(n) \frac{Card(T_i \in E^{-}, q_i(\omega)=n)}{Card(q_i(\omega)=n)} \\
+   \hat{\lambda}_{i}^{M}(n) &= \hat{\Lambda}_i(n) \frac{Card(T_i \in E^{t}, q_i(\omega)=n)}{Card(q_i(\omega)=n)}
 \end{aligned}
 $$
 
@@ -41,3 +41,5 @@ $$
 $$
 
 Then, comparing the asymptotic results of the model with the empirical distributions observed will allow us to see if the model fits correctly or not.
+
+test
